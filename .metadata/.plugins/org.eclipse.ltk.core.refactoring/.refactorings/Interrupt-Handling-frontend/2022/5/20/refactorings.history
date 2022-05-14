@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Interrupt-Handling-frontend/src/main/webapp/View&apos; to &apos;Views&apos;" description="Rename resource &apos;View&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/View" name="Views" stamp="1652536267539" updateReferences="true"/>
+</session>
