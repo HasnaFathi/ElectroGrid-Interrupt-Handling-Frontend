@@ -1,7 +1,0 @@
-127.0.0.1 - - [14/May/2022:19:18:33 +0530] "GET / HTTP/1.1" 404 751
-0:0:0:0:0:0:0:1 - - [14/May/2022:19:18:35 +0530] "GET /Interrupt-Handling-frontend/interrupt.jsp HTTP/1.1" 200 139
-0:0:0:0:0:0:0:1 - - [14/May/2022:19:18:35 +0530] "GET /favicon.ico HTTP/1.1" 404 762
-0:0:0:0:0:0:0:1 - - [14/May/2022:19:21:45 +0530] "GET /Interrupt-Handling-frontend/interrupt.jsp HTTP/1.1" 200 1762
-0:0:0:0:0:0:0:1 - - [14/May/2022:19:21:45 +0530] "GET /Interrupt-Handling-frontend/Components/interrupt.js HTTP/1.1" 200 13
-0:0:0:0:0:0:0:1 - - [14/May/2022:19:21:45 +0530] "GET /Interrupt-Handling-frontend/Components/jquery-3.6.0.min.js HTTP/1.1" 200 89501
-0:0:0:0:0:0:0:1 - - [14/May/2022:19:21:45 +0530] "GET /Interrupt-Handling-frontend/Views/bootstrap.min.css HTTP/1.1" 200 144877

@@ -54,7 +54,9 @@ if (request.getParameter("hidInterruptIDDelete") != null)
 </head>
 <body>
 	<div class="container"><div class="row"><div class="col-6">
+	
 	<h1>Interrupt Handling</h1>
+	
 	<form id="formInterrupt" name="formInterrupt">
 	 Interrupt code:
 	 <input id="interruptCode" name="interruptCode" type="text"

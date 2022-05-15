@@ -6,9 +6,12 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.Statement;
 
+import util.dbconnect;
+
 public class interrupt {
 	
-	public Connection connect()
+	dbconnect dbconn = new dbconnect();
+	/*public Connection connect()
 	{
 	  Connection con = null;
 
@@ -25,7 +28,7 @@ public class interrupt {
 		 }
 	
 		 return  con;
-	}
+	}*/
 
 	public String insertInterrupt(String code, String date,
 			 String Duration, String start, String end, String Region, String Reason, String AdminID)
@@ -33,7 +36,7 @@ public class interrupt {
 			 	String output = "";
 			 try
 			 {
-				 Connection con = connect();
+				 Connection con = dbconn.connect();
 				 if (con == null)
 				 {
 					 return "Error while connecting to the database for inserting.";
@@ -77,7 +80,7 @@ public class interrupt {
 		String output = "";
 	try
 	 {
-			Connection con = connect();
+			Connection con = dbconn.connect();
 		 if (con == null)
 		 {
 			 return "Error while connecting to the database for reading.";
@@ -141,7 +144,7 @@ public class interrupt {
 					String output = "";
 			 try
 			 {
-					 Connection con = connect();
+					 Connection con = dbconn.connect();
 					 if (con == null)
 					 {
 						 return "Error while connecting to the database for updating.";
@@ -160,7 +163,6 @@ public class interrupt {
 					 preparedStmt.setString(6, Region);
 					 preparedStmt.setString(7, Reason);
 					 preparedStmt.setString(8, AdminID);
-					
 					 preparedStmt.setInt(9, Integer.parseInt(ID));
 					 
 					// execute the statement
@@ -182,7 +184,7 @@ public class interrupt {
 					String output = "";
 			 try
 			 {
-				 Connection con = connect();
+				 Connection con = dbconn.connect();
 				 if (con == null)
 				 {
 					 return "Error while connecting to the database for deleting.";
