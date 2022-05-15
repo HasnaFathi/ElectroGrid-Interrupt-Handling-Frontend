@@ -251,3 +251,6 @@ java.lang.Exception: The project description file (.project) for 'Interrupt-Hand
 	at org.eclipse.ui.internal.navigator.resources.actions.ResourceMgmtActionProvider$1$1.runInWorkspace(ResourceMgmtActionProvider.java:230)
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.lsp4e 1 0 2022-05-15 09:27:23.016
+!MESSAGE [Info]	ESLint server running in node v16.9.0
