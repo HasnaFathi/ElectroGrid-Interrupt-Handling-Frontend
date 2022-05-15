@@ -11,25 +11,7 @@ import util.dbconnect;
 public class interrupt {
 	
 	dbconnect dbconn = new dbconnect();
-	/*public Connection connect()
-	{
-	  Connection con = null;
-
-	 try
-	 {
-		 Class.forName("com.mysql.jdbc.Driver");
-		 con = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/electrogrid", "root", "");
-		 //For testing
-		 System.out.print("Successfully connected");
-		 }
-		 catch(Exception e)
-		 {
-		 e.printStackTrace();
-		 }
 	
-		 return  con;
-	}*/
-
 	public String insertInterrupt(String code, String date,
 			 String Duration, String start, String end, String Region, String Reason, String AdminID)
 			 {
